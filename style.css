@@ -1,6 +1,6 @@
 :root {
-    --main-color: rgb(65, 30, 100);
-    --secondary-color: purple;
+    --main-color: #0D385C;
+    --secondary-color: #FFA538;
     --shadow: 5px 5px 10px rgba(0,0,0,.15);
     --title-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Roboto',sans-serif;
@@ -10,29 +10,31 @@
 
 body{
     text-align: center;
-    background-image: url("images/geometric-face.jpg");
-    background-size: contain;
     
 }
+
 .container {
     max-width: 1200px;
     background-color: white;
     margin:60px auto;
     box-shadow: var(--shadow);
     padding: 60px 0;
-}
+    border-radius: 15px;
+    }
 
-h2{
-    font-family: var(--paragraph-font);
-    margin-top: 20px;
-    margin-bottom: 0;
-    font-size: 30px;
-}
+
 h1{
     font-family: var(--title-font);
     color: var(--main-color);
     font-size: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: var(--paragraph-font);
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 30px;
 }
 
 h3 {
@@ -40,6 +42,22 @@ h3 {
     margin: 0 auto;
     
 }
+
+ul {
+    text-align: right;
+        margin: -15px auto;
+        list-style: none;
+        padding-inline-start: 0;
+        margin-right:20px;
+       
+}
+
+li {
+
+    display: inline;
+    margin: 0 auto;
+    padding:5px; 
+    }
 
 p a{
     font-size: 16px;
@@ -51,6 +69,18 @@ p a{
 
 footer {
     font-size: 12px;
+    text-align: right;
+    font-family: var(--paragraph-font);
+    margin-right: 50px;
+    margin-bottom: -30px;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+footer a:hover{
+    color:var(--main-color);
 }
 
 button {
@@ -59,6 +89,9 @@ button {
     background-color: var(--secondary-color);
     color: white;
     border:none;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 12px;
     }
 
 button:hover{
@@ -70,28 +103,6 @@ button a{
     color:white;
     }
 
-.buttons{
-    display: flex;
-    justify-content: center;
-    
-}
-
-#about-me, #contact-me {
-    font-size: 16px;
-    border-radius: 15px;
-    padding: 15px 20px;
-    margin: 60px 30px;
-
-}
-
-#homepage-button {
-    padding: 8px 15px;
-    border-radius: 8px;
-    position: absolute;
-    top: 15%;
-    left: 80%;    
-
-}
 
 #about-me-description {
     margin-top: 40px;
@@ -99,14 +110,8 @@ button a{
     font-family: var(--paragraph-font);
     
 }
+img{
 
-.column{
-    
-    column-count: 2;
-    column-gap: 10px;
-
+    display: block;
 }
-
-
-
 
