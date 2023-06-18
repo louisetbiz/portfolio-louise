@@ -1,6 +1,7 @@
 :root {
     --main-color: #0D385C;
     --secondary-color: #FFA538;
+    --third-color:#2FB9C6;
     --shadow: 5px 5px 10px rgba(0,0,0,.15);
     --title-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Roboto',sans-serif;
@@ -10,26 +11,42 @@
 
 body{
     text-align: center;
-    
-}
+   }
 
-.container {
+#container {
     max-width: 1200px;
     background-color: white;
     margin:60px auto;
     box-shadow: var(--shadow);
-    padding: 60px 0;
+    
     border-radius: 15px;
     }
 
 
-h1{
+h1 {
     font-family: var(--title-font);
     color: var(--main-color);
     font-size: 60px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    
+    
+}
+.my-name{
+    text-align: left;
+    vertical-align: middle;
+       
+}
+#my-name{
+    margin-top: 110px;
 }
 
+.main-image{
+    display: block;
+    float: right;
+}
+#main-text{
+    margin-top: 50px;
+}
 h2 {
     font-family: var(--paragraph-font);
     margin-top: 20px;
@@ -39,7 +56,9 @@ h2 {
 
 h3 {
     font-family: var(--paragraph-font);
-    margin: 0 auto;
+    margin: 10px auto;
+    color:var(--third-color);
+    font-size: 20px;
     
 }
 
@@ -78,9 +97,12 @@ footer {
 footer a{
     text-decoration: none;
     color: var(--secondary-color);
+    margin-top: 15px;
+    padding: 15px;
 }
 footer a:hover{
     color:var(--main-color);
+    
 }
 
 button {
@@ -90,8 +112,8 @@ button {
     color: white;
     border:none;
     font-size: 14px;
-    padding: 8px 20px;
-    border-radius: 12px;
+    padding: 6px 16px;
+    border-radius: 15px;
     }
 
 button:hover{
@@ -115,3 +137,36 @@ img{
     display: block;
 }
 
+#project-picture{
+    
+    box-shadow: var(--shadow);
+}
+
+#project-picture:hover{
+    opacity:80%;    
+}
+
+h4{
+    color: var(--secondary-color);
+    font-weight: bold;
+
+}
+
+p{
+    color: var(--main-color);
+
+}
+
+.home-button{
+    display: block;
+}
+
+.home-button:hover{
+    opacity: 50%;
+    
+  
+}
+
+.projects{
+    margin-top: 150px;
+}
