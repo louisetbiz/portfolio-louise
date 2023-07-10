@@ -1,0 +1,108 @@
+:root {
+    --main-color: #38393a;
+    --secondary-color: #FFA538;
+    --shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+    --title-font: 'Belanosima', sans-serif;
+    --paragraph-font: 'Old Standard TT', serif, italic;
+
+}
+h1{
+    font-family: var(--title-font);
+    font-size: 48px;
+    color: #38393a;
+    text-align: center;
+    margin: 40px auto;
+}
+
+h2{
+    font-family: var(--paragraph-font);
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    margin: 25px auto;
+}
+
+h3{
+    font-family: var(--title-font);
+    font-size: 24px;
+    text-align: center;
+    margin: 70px auto;
+    font-weight: bold;
+}
+
+p{
+    text-align: left;
+    font-size:18px;
+    font-family: var(--paragraph-font);
+}
+
+footer{
+    font-size: 14px;
+    font-family: var(--paragraph-font);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#38393a;
+}
+ul{
+    font-family: var(--title-font);
+}
+li{
+    padding:15px;
+    display: inline;
+}
+
+img{
+    display: block;
+    border-radius: 7px;
+    margin-top: 15px;
+    filter: saturate(.1);    
+    transition: all 180ms ease-in;
+}
+img:hover{
+    cursor: pointer;
+    filter: saturate(1);
+}
+
+
+#developer-name{
+    font-size: 18px;
+    font-family: var(--title-font);
+    color: #38393a;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+#pages {
+    text-decoration: none;
+        color: #38393a;
+}
+.container{
+    width:600px;
+    background-color: #38393a;
+    opacity: .8;
+    border-radius: 15px;
+    box-sizing: var(--shadow);
+    padding: 20px;
+    color:white;
+    margin:50px auto;
+
+}
+
+.contact{
+    text-align: center;
+    margin:15px auto;
+}
+.pages a {
+    text-decoration: none;
+    color: #38393a;
+    font: var(--title-font);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#projects {
+    margin: 50px auto;
+}
