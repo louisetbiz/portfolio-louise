@@ -60,12 +60,28 @@ img{
     margin-top: 15px;
     filter: saturate(.1);    
     transition: all 180ms ease-in;
+    box-shadow: var(--shadow);
 }
 img:hover{
     cursor: pointer;
     filter: saturate(1);
+    transform: scale(1.05);
+}
+.project-cover{
+    display: block;
+    width: 400px;
+    margin: 100px auto;
 }
 
+.container-project{
+    background-color: #38393a;
+    box-shadow: var(--shadow);
+    width: 450px;
+    height: 550px;
+    opacity: .65;
+    padding: 20px;
+    border-radius: 15px;
+}
 
 #developer-name{
     font-size: 18px;
@@ -78,17 +94,6 @@ img:hover{
 #pages {
     text-decoration: none;
         color: #38393a;
-}
-.container{
-    width:600px;
-    background-color: #38393a;
-    opacity: .8;
-    border-radius: 15px;
-    box-sizing: var(--shadow);
-    padding: 20px;
-    color:white;
-    margin:50px auto;
-
 }
 
 .contact{
@@ -105,4 +110,17 @@ img:hover{
 
 #projects {
     margin: 50px auto;
+}
+
+#project-name{
+    text-align: left;
+    margin:80px auto;
+    font-size: 36px;
+}
+
+#project-description{
+    text-align: justify;
+    font-size: 22px;
+    margin: -50px auto;
+
 }
