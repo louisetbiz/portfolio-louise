@@ -124,3 +124,14 @@ img:hover{
     margin: -50px auto;
 
 }
+
+.daylight{
+    background-color: white;
+}
+.dark{
+    background-color: #38393a;
+    color: white;
+}
+body{
+    transition: background-color 1s;
+}
