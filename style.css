@@ -6,10 +6,14 @@
     --paragraph-font: 'Old Standard TT', serif, italic;
 
 }
+
+body{
+    color:#38393a;
+    background-color: white;
+}
 h1{
     font-family: var(--title-font);
     font-size: 48px;
-    color: #38393a;
     text-align: center;
     margin: 40px auto;
 }
@@ -44,7 +48,7 @@ footer{
 
 a{
     text-decoration: none;
-    color:#38393a;
+    color: inherit;
 }
 ul{
     font-family: var(--title-font);
@@ -102,7 +106,6 @@ img:hover{
 }
 .pages a {
     text-decoration: none;
-    color: #38393a;
     font: var(--title-font);
     font-size: 14px;
     font-weight: 700;
